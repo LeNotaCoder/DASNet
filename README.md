@@ -1,6 +1,6 @@
 # DASNet: A Dual Adaptive Subtle-Feature Network for Enhanced Diabetic Retinopathy Detection in Fundus Images
 
-![DASNet Architecture](path/to/architecture_image.png) <!-- Replace with actual path to your model architecture image -->
+![DASNet Architecture](/images/model.png) <!-- Replace with actual path to your model architecture image -->
 
 ## 📄 Overview
 
@@ -90,9 +90,9 @@ All datasets were normalized into binary labels: `0 = Healthy`, `1 = DR`.
 
 ## 📈 Visualization
 
-![Adaptive Pooling branch](path/to/architecture_image.png)
+![Adaptive Pooling branch](/images/adaptive_pool.png)
 
-![MaxPooling branch](path/to/architecture_image.png)
+![MaxPooling branch](/images/maxpool.png)
 
 Feature maps from:
 - **Adaptive Pooling** branch: fine textures and microaneurysms
