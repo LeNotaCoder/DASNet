@@ -90,6 +90,10 @@ All datasets were normalized into binary labels: `0 = Healthy`, `1 = DR`.
 
 ## 📈 Visualization
 
+![Adaptive Pooling branch](path/to/architecture_image.png)
+
+![MaxPooling branch](path/to/architecture_image.png)
+
 Feature maps from:
 - **Adaptive Pooling** branch: fine textures and microaneurysms
 - **MaxPooling** branch: vessel structures, optic disc, hemorrhages
