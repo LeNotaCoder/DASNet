@@ -95,7 +95,6 @@ All datasets were normalized into binary labels: `0 = Healthy`, `1 = DR`.
 ![MaxPooling branch](/images/maxpool.png)
 
 Feature maps from:
-- **Adaptive Pooling** branch: fine textures and microaneurysms
-- **MaxPooling** branch: vessel structures, optic disc, hemorrhages
+To interpret DASNet’s internal workings, the 10 most activated feature maps from both branches were visualized. The Adaptive MaxPooling branch captured fine-grained, subtle features such as microaneurysms and vessel irregularities, with dense, spatially distributed activations. In contrast, the MaxPooling branch highlighted prominent anatomical structures like the optic disc and hemorrhages, with sharper, more localized activations. These complementary visual patterns validate DASNet's dual-branch design, demonstrating its ability to capture both subtle and dominant retinal features—enhancing both performance and model interpretability.
 
 ---
