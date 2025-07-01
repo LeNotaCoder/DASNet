@@ -21,12 +21,12 @@ This model was proposed at the **12th Indian Conference on Computer Vision, Grap
 
 ## 📊 Results
 
-| Dataset     | DASNet Accuracy | 
-|-------------|------------------|
-| BiDR        | 95.92%           | 
-| APTOS       | 94.87%           | 
-| EDI         | 93.90%           |
-| Unified     | 95.63%           |
+| Dataset     | DASNet Accuracy | Dataset Size|
+|-------------|------------------|-------------|
+| BiDR        | 95.92%           | 2816 images|
+| APTOS       | 94.87%           | 3610 images |
+| EDI         | 93.90%           | 2048 images |
+| Unified     | 95.63%           | 47096 images |
 
 Refer to Tables 3–6 in the paper for full metrics (F1, Precision, Recall).
 
@@ -54,6 +54,8 @@ DASNet has the following structure:
 - Final binary classification (Healthy vs DR)
 
 ---
+
+![DASNet Architecture](/images/pipeline.png)
 
 ## 🖼️ Preprocessing Pipeline
 
