@@ -82,7 +82,7 @@ models["VGG16"].classifier[6] = nn.Linear(4096, num_classes)
 # Train models
 results = []
 for name, model in models.items():
-    print(f"\n🔄 Training {name}...")
+    print(f"\n Training {name}...")
     acc, f1, precision, recall = train_model(model, train_loader, test_loader, name=name, device=device, epochs=25)
     results.append({
         "Model": name,
