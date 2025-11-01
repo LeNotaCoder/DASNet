@@ -1,6 +1,6 @@
 # 🚀 DASNet: Dual Adaptive Subtle-Feature Network for Enhanced Diabetic Retinopathy Detection
 
-![DASNet Architecture](/images/model.png) <!-- Replace with actual path to your architecture image -->
+![DASNet Architecture](/images/architecture.png) <!-- Replace with actual path to your architecture image -->
 
 ---
 
